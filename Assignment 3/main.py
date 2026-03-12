@@ -69,7 +69,7 @@ def add_product(product: NewProduct, response: Response):
 
 
 # =========================
-# INVENTORY AUDIT (Q5)
+# INVENTORY AUDIT 
 # =========================
 @app.get("/products/audit")
 def product_audit():
@@ -94,7 +94,7 @@ def product_audit():
 
 
 # =========================
-# BULK DISCOUNT (BONUS)
+# BULK DISCOUNT 
 # =========================
 @app.put("/products/discount")
 def bulk_discount(
